@@ -1,3 +1,10 @@
 /api
 /vendor
 composer.lock
+/nbproject/private/
+debian/php-apigen/
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/php-apigen.debhelper.log
+debian/php-apigen.substvars

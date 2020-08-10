@@ -1,0 +1,5 @@
+php-apigen (5.0~rc7) UNRELEASED; urgency=medium
+
+  * Phar Based build
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sun, 09 Aug 2020 15:30:39 +0200

@@ -4,10 +4,22 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
-        { "name": "ApiGen Contributors", "homepage": "https://github.com/apigen/apigen/graphs/contributors" },
-        { "name": "Jaroslav Hanslík", "homepage": "https://github.com/kukulich" },
-        { "name": "Ondřej Nešpor", "homepage": "https://github.com/andrewsville" },
-        { "name": "David Grudl",  "homepage": "http://davidgrudl.com" }
+        {
+            "name": "ApiGen Contributors",
+            "homepage": "https://github.com/apigen/apigen/graphs/contributors"
+        },
+        {
+            "name": "Jaroslav Hanslík",
+            "homepage": "https://github.com/kukulich"
+        },
+        {
+            "name": "Ondřej Nešpor",
+            "homepage": "https://github.com/andrewsville"
+        },
+        {
+            "name": "David Grudl",
+            "homepage": "http://davidgrudl.com"
+        }
     ],
     "bin": ["bin/apigen"],
     "require": {
@@ -33,7 +45,7 @@
     "require-dev": {
         "tracy/tracy": "*",
         "phpunit/phpunit": "^8.0",
-	"phpstan/phpstan": "*",
+        "phpstan/phpstan": "*",
         "symplify/easy-coding-standard": "*"
     },
     "autoload": {
@@ -44,7 +56,9 @@
             "ApiGen\\Element\\": "packages/Element/src",
             "ApiGen\\ModularConfiguration\\": "packages/ModularConfiguration/src",
             "ApiGen\\Reflection\\": "packages/Reflection/src",
-            "ApiGen\\StringRouting\\": "packages/StringRouting/src"
+            "ApiGen\\StringRouting\\": "packages/StringRouting/src",
+            "ApiGen\\DependencyInjection\\": "src/DependencyInjection",
+            "ApiGen\\DependencyInjection\\Container\\": "src/DependencyInjection/Container"
         }
     },
     "autoload-dev": {

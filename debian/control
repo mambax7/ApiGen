@@ -1,0 +1,16 @@
+Source: php-apigen
+Section: doc
+Priority: optional
+Maintainer: "Vítězslav Dvořák" <info@vitexsoftware.cz>
+Build-Depends: debhelper (>=11~),composer
+Standards-Version: 4.1.4
+Homepage: https://github.com/Vitexus/ApiGen.git
+
+Package: php-apigen
+Multi-Arch: foreign
+Depends: ${misc:Depends}, php-cli, locales-all
+Architecture: all
+Description: PHP 7.1 ready Smart and Simple Documentation for your PHP project
+ the simplest, the easiest to use and the most modern api doc generator. 
+ It is all PHP 7.1 features ready easy to extend with own Finder, Annotation 
+ Subscriber or even Generator.
